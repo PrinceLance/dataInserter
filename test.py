@@ -45,7 +45,7 @@ def happyFlow(testName, db, cursor, BATCH_SIZE):
     # test if it can handle floating point and other data types
     cursor.execute("SELECT * from claims")
     rows = cursor.fetchall()
-    assert str(rows) == "((1, '1234567890', 15.0, '2015-06-08T10:08:03Z', 0, 'Stephen'), (2, '1234567891', -15.0, '2015-06-18T10:08:03Z', 1, 'Curry'))", "claims"
+    assert str(rows) == "((1, '1234567890', 15.5, '2015-06-08T10:08:03Z', 0, 'Stephen'), (2, '1234567891', -15.6, '2015-06-18T10:08:03Z', 1, 'Curry'))", "claims"
 
 # Happy Flow test case
 def catchNonMatchingSpecAndDataFile(testName, db, cursor, BATCH_SIZE):
