@@ -1,0 +1,6 @@
+"column name",width,datatype
+client ID,10,TEXT
+amount,10,FLOAT
+createdAt,20, DATETIME
+statusCode,2 ,INTEGER
+Person_In_Charge,10,TEXT
