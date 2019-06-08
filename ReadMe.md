@@ -1,4 +1,4 @@
-##To start using:
+## To start using:
 1. You must have mysql running and put the connection details in the config.txt
 2. Make sure you have pymysql library
 3. Then, run the main file using below command
@@ -6,19 +6,17 @@
 python3 main.py
 ```
 
-##To run integration test:
+## To run integration test:
 ```
 python3 test.py
 ```
 
 
-##Folder Structure:
+## Folder Structure:
 - data - this is the folder housing the data files
 - specs - this is the folder housing the spec files
 - testdata - this is the folder for housing the test data
-
 - dataLoader.ipynb -  this is the program in jupyter notebook format, which is easier to debug
-
 - config.txt - config file housing your database connection and batch size configurations
 - dataLoader.py - the main file, holds the logic to insert those in data/ and specs/ to database
 - utils.py - utility function library
